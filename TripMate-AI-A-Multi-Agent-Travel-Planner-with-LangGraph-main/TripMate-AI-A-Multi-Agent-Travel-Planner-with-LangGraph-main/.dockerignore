@@ -1,0 +1,29 @@
+# Environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.*
+
+# Local Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Git
+.git
+.gitignore
+
+# Bulky design/demo assets
+demo.excalidraw
